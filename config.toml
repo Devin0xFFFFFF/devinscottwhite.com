@@ -1,0 +1,47 @@
+baseURL = 'https://devinscottwhite.com/'
+languageCode = 'en-us'
+title = 'My Homepage'
+theme = "hugo-coder"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  author = "Devin White"
+  info = "Developer at Teradici, an HP Company"
+  description = "Devin's personal website"
+  keywords = "developer,personal"
+  avatarurl = "images/me_2021.jpg"
+
+  since = 2019
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/Devin0xFFFFFF/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://linkedin.com/in/devinscottwhite"
+
+# Menu links
+[[menu.main]]
+  name = "Experience"
+  weight = 1
+  url  = "pages/experience"
